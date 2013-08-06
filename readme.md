@@ -40,7 +40,7 @@ Serves the app on these routes
 
 Is the entry point for the Atomify bundled js. This just uses browserify under the hood, so require modules like you normally would. If you'd like to reuire a handlebars template, do that like: `require('template.html.hbs')`.
 
-### `entry.css`
+#### `entry.css`
 
 Is this entry point for the Atomify bundled css. This uses npm-css and rework under the hood.
 
