@@ -3,7 +3,7 @@ Atomify Example App
 
 ### Description
 
-This is a simple example app to show off what a atomify app might look like. If you want to try it out yourself:
+This is a simple example app to show off what a [atomify](http://github.com/techwraith/atomify) app might look like. If you want to try it out yourself:
 
 ```
 git clone git@github.com:Techwraith/atomify-example.git
