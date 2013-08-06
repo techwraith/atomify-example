@@ -1,5 +1,6 @@
 @import "ios-overlay";
 @import "./search-form/";
+@import "./input/";
 
 body {
   background: var(lightBG);
