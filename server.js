@@ -14,10 +14,10 @@ var cssVariables = {
 
 var atom = atomify({
   js: {
-    entry: './entry.js'
+    entry: './ui/entry.js'
   }
 , css: {
-    entry: './entry.css'
+    entry: './ui/entry.css'
   , variables: cssVariables
   }
 });

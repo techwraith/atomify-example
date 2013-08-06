@@ -19,10 +19,10 @@ The app should be pretty easy to get around in the basic structure looks like th
 
 ```
 ui/
+|-entry.js
+|-entry.css
 static/
 node_modules/
-entry.js
-entry.css
 index.html
 server.js
 ```
@@ -36,11 +36,11 @@ Serves the app on these routes
 - `/bundle.css`: serves the bundled css
 - `/*`: serves up any static files in `static`
 
-#### `entry.js`
+#### `ui/entry.js`
 
 Is the entry point for the Atomify bundled js. This just uses browserify under the hood, so require modules like you normally would. If you'd like to reuire a handlebars template, do that like: `require('template.html.hbs')`.
 
-#### `entry.css`
+#### `ui/entry.css`
 
 Is this entry point for the Atomify bundled css. This uses npm-css and rework under the hood.
 
