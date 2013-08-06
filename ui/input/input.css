@@ -1,0 +1,8 @@
+input {
+  background: var(darkBG);
+  color: var(textColor);
+  box-sizing: border-box;
+  height: auto;
+  outline: none;
+  border: none;
+}
