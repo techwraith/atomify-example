@@ -1,6 +1,6 @@
 {
   "name": "atomify-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An example app built with atomify",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "handlebars-runtime": "~1.0.12",
     "brfs": "0.0.6",
     "hbsfy": "~0.1.5",
-    "atomify": "0.0.6",
+    "atomify": "0.0.7",
     "st": "~0.2.1",
     "ios-overlay": "0.0.1",
     "jquery-browserify": "~1.8.1",

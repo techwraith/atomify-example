@@ -15,6 +15,9 @@ var cssVariables = {
 var atom = atomify({
   js: {
     entry: './ui/entry.js'
+  , shim: {
+      jquery: { path: __dirname + '/static/js/jquery.js', exports: '$' }
+    }
   }
 , css: {
     entry: './ui/entry.css'
