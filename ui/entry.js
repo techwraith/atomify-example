@@ -1,5 +1,6 @@
 var overlay = require('ios-overlay')
   , SearchForm  = require('./search-form/')
+  , test = require('test-atom')
 
 window.search = new SearchForm({
   el: $('#search-target')
